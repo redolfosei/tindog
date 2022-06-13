@@ -3,7 +3,7 @@
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 body {
@@ -63,8 +63,11 @@ p {
 
 /* title-image */
 .image-title {
-  width: 60%;
+  width: 25%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+ 
 }
 
 .features-icon {
@@ -78,7 +81,8 @@ p {
 
 .features_sections {
   padding: 7% 15%;
-  
+  background-color: #fff;
+  position: relative;
 }
 
 .single-feature {
@@ -114,4 +118,26 @@ p {
 .press-imgs {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding:3% 5%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .image-title {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
 }
