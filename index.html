@@ -56,12 +56,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+              <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#cta">Download</a></li>
             </ul>
           </div>
         </nav>
@@ -75,10 +72,7 @@
               <button type="button" class="btn btn-dark btn-lg download-button">
                 <i class="fa-brands fa-apple"></i> Download
               </button>
-              <button
-                type="button"
-                class="btn btn-outlined-light btn-lg download-button"
-              >
+              <button type="button" class="btn btn-outline-light btn-lg download-button">
                 <span class="fa-brands fa-google-play"></span> Download
               </button>
             </div>
@@ -139,11 +133,7 @@
               My dog used to be so lonely, but with TinDog's help, they've found
               the love of their life. I think.
             </h2>
-            <img
-              class="testimonials-img"
-              src="images/lady-img.jpg"
-              alt="lady-profile"
-            />
+            <img class="testimonials-img" src="images/lady-img.jpg" alt="lady-profile"/>
             <em>Beverly, Illinois</em>
           </div>
         </div>
@@ -244,15 +234,22 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-title">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="btn btn-lg btn-dark footer_btn" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button class="btn btn-lg btn-outline-light footer_btn" type="button"><i class="fa-brands fa-google-play"></i>Download</button>
     </section>
 
     <!-- Footer -->
 
-    <footer id="footer">
-      <p>© Copyright TinDog</p>
+    <footer id="footer" class="text-center">
+      <ul class="list-inline list-unstyled text-center socials">
+        <li class="list-inline-item soc"><i class="fa-brands fa-twitter"></i></li>
+        <li class="list-inline-item soc"><i class="fa-brands fa-facebook-f"></i></li>
+        <li class="list-inline-item soc"><i class="fa-brands fa-instagram"></i></li>
+        <li class="list-inline-item soc"><i class="fa-solid fa-envelope"></i></li>
+      </ul>
+      <p>© Copyright @2020 redolFia</p>
     </footer>
+  
   </body>
 </html>
